@@ -13,16 +13,16 @@ public class CameraDoT : MonoBehaviour
     private void Start()
     {
         //Camera'nın açısını değiştirir.
-        Camera.main.DOAspect(3f, 3f);
+        //Camera.main.DOAspect(2f, 3f);
 
         //Camera'nın background rengini istediğimiz duration'da değiştirir.
         Camera.main.DOColor(Color.green, 3f);
 
         //Camera'nın Far ayarını değiştirir.
-        Camera.main.DOFarClipPlane(2000f, 3f);
+        //Camera.main.DOFarClipPlane(2000f, 3f);
 
         //Camera'nın Near ayarını değiştirir.
-        Camera.main.DONearClipPlane(.4f, 3f);
+        //Camera.main.DONearClipPlane(.4f, 3f);
 
         //Camera'nın FOV ayarını değiştirir.
         Camera.main.DOFieldOfView(75f, 3f);
